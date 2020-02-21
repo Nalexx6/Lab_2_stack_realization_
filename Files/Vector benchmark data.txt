@@ -1,0 +1,26 @@
+This is data for Vector_stack:
+
+Pushing 1 elements = 0 ms
+Popping 1 elements = 0 ms
+
+Pushing 10 elements = 0 ms
+Popping 10 elements = 0 ms
+
+Pushing 100 elements = 0 ms
+Popping 100 elements = 1 ms
+
+Pushing 1000 elements = 0 ms
+Popping 1000 elements = 0 ms
+
+Pushing 10000 elements = 1 ms
+Popping 10000 elements = 1 ms
+
+Pushing 100000 elements = 9 ms
+Popping 100000 elements = 4 ms
+
+Pushing 1000000 elements = 143 ms
+Popping 1000000 elements = 91 ms
+
+Pushing 10000000 elements = 1405 ms
+Popping 10000000 elements = 511 ms
+
