@@ -1,0 +1,35 @@
+----------------------10 elements-------------------
+				array	vector	list	std_stack
+Pushing(ms):	0		0		0		0
+Popping(ms):	0		0		0		0
+Size(bytes):	252		252		332
+----------------------100 elements-------------------
+				array	vector	list	std_stack
+Pushing(ms):	0		0		0		0
+Popping(ms):	0		0		0		0
+Size(bytes):	2412		2412		3212
+----------------------1000 elements-------------------
+				array	vector	list	std_stack
+Pushing(ms):	0		1		0		0
+Popping(ms):	0		0		0		0
+Size(bytes):	24012		24012		32012
+----------------------10000 elements-------------------
+				array	vector	list	std_stack
+Pushing(ms):	14		2		2		2
+Popping(ms):	0		1		0		1
+Size(bytes):	240012		240012		320012
+----------------------100000 elements-------------------
+				array	vector	list	std_stack
+Pushing(ms):	6		13		18		12
+Popping(ms):	1		6		3		4
+Size(bytes):	2400012		2400012		3200012
+----------------------1000000 elements-------------------
+				array	vector	list	std_stack
+Pushing(ms):	62		112		135		126
+Popping(ms):	11		59		22		35
+Size(bytes):	24000012		24000012		32000012
+----------------------10000000 elements-------------------
+				array	vector	list	std_stack
+Pushing(ms):	589		1085		1061		856
+Popping(ms):	77		453		145		307
+Size(bytes):	240000012		240000012		320000012

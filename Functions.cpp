@@ -4,32 +4,32 @@
 
 #include "Functions.h"
 
-Vector_stack Functions::create_new_vector_stack() {
+Vector_stack <Point> Functions::create_new_vector_stack() {
 
-    Vector_stack vectorStack;
+    Vector_stack <Point> vectorStack;
 
     return vectorStack;
 
 }
 
-Array_stack Functions::create_new_array_stack() {
+Array_stack <Point> Functions::create_new_array_stack(bool benchmark) {
 
-    Array_stack arrayStack;
+    Array_stack <Point> arrayStack(benchmark);
 
     return arrayStack;
 
 }
 
-List_stack Functions::create_new_list_stack() {
+List_stack <Point> Functions::create_new_list_stack() {
 
 
-    List_stack listStack;
+    List_stack <Point> listStack;
 
     return listStack;
 
 }
 
-void Functions::vector_stack_interactive(Vector_stack vectorStack) {
+void Functions::vector_stack_interactive(Vector_stack <Point> vectorStack) {
 
     char response = 'y';
 
@@ -87,7 +87,7 @@ void Functions::vector_stack_interactive(Vector_stack vectorStack) {
 
 }
 
-void Functions::array_stack_interactive(Array_stack arrayStack) {
+void Functions::array_stack_interactive(Array_stack <Point> arrayStack) {
 
     char response = 'y';
 
@@ -145,7 +145,7 @@ void Functions::array_stack_interactive(Array_stack arrayStack) {
 
 }
 
-void Functions::list_stack_interactive(List_stack listStack) {
+void Functions::list_stack_interactive(List_stack <Point> listStack) {
 
     char response = 'y';
 
@@ -202,7 +202,7 @@ void Functions::list_stack_interactive(List_stack listStack) {
 
 }
 
-void Functions::vector_stack_demo(Vector_stack vectorStack, double x_cor_1, double y_cor_1, double z_cor_1,
+void Functions::vector_stack_demo(Vector_stack <Point> vectorStack, double x_cor_1, double y_cor_1, double z_cor_1,
                                   double x_cor_2, double y_cor_2, double z_cor_2) {
 
     /*
@@ -257,7 +257,7 @@ void Functions::vector_stack_demo(Vector_stack vectorStack, double x_cor_1, doub
 
 }
 
-void Functions::array_stack_demo(Array_stack arrayStack, double x_cor_1, double y_cor_1, double z_cor_1, double x_cor_2,
+void Functions::array_stack_demo(Array_stack <Point> arrayStack, double x_cor_1, double y_cor_1, double z_cor_1, double x_cor_2,
                             double y_cor_2, double z_cor_2) {
 
     std::string breakpoint;
@@ -308,7 +308,7 @@ void Functions::array_stack_demo(Array_stack arrayStack, double x_cor_1, double 
 
 }
 
-void Functions::list_stack_demo(List_stack listStack, double x_cor_1, double y_cor_1, double z_cor_1, double x_cor_2,
+void Functions::list_stack_demo(List_stack <Point> listStack, double x_cor_1, double y_cor_1, double z_cor_1, double x_cor_2,
                                 double y_cor_2, double z_cor_2) {
 
     std::string breakpoint;
@@ -359,88 +359,90 @@ void Functions::list_stack_demo(List_stack listStack, double x_cor_1, double y_c
 
 }
 
-void Functions::vector_stack_benchmark(Vector_stack vectorStack) {
+void Functions::comparison_benchmark(Vector_stack <Point> vectorStack, Array_stack <Point> arrayStack, List_stack <Point> listStack) {
 
-    std::ofstream f ("../Files/Vector benchmark data.txt");
-    std::cout<<"This is data for Vector_stack:\n";
-    f<<"This is data for Vector_stack:\n\n";
+    std::ofstream f("../Files/Comparison benchmark.txt");
+    std::cout << "\nRunning...\n";
+    //f<<"This is dat\n\n";
+    std::stack<Point> test_stack;
+    clock_t start, end, start_1, end_1;
+    int size_a, size_v, size_l;
+    for (int N = 10; N <= 10000000; N *= 10) {
 
-    for(int N = 1; N <= 10000000; N*= 10){
+        f << "----------------------" << N << " elements-------------------\n"
+          "\t\t\t\tarray\tvector\tlist\tstd_stack\n"
+          "Pushing(ms):\t";
 
-        clock_t start = clock();
-        for(int i = 1; i <= N; i++){
-            vectorStack.vector_create_and_push(1, 1, 1, false);
-        }
-        clock_t end = clock();
-        std::cout<<"Pushing "<< N <<" elements = "<<(end - start)<<" ms\n";
-        f<<"Pushing "<< N <<" elements = "<<(end - start)<<" ms\n";
-        clock_t start_1 = clock();
-        for(int i = 1; i <= N; i++){
-            vectorStack.vector_pop(false);
-        }
-        clock_t end_1 = clock();
-        std::cout<<"Popping "<<N <<" elements = "<<(end_1 - start_1)<<" ms\n";
-        f<<"Popping "<<N <<" elements = "<<(end_1 - start_1)<<" ms\n\n";
-    }
-    f.close();
-
-}
-
-void Functions::array_stack_benchmark(Array_stack arrayStack) {
-
-    std::ofstream f ("../Files/Array benchmark data.txt");
-    std::cout<<"\nThis is data for Array_stack:\n";
-    f<<"This is data for Array_stack:\n\n";
-
-    for(int N = 1; N <= 10000000; N*= 10){
-
-        clock_t start = clock();
-        for(int i = 1; i <= N; i++){
+        start = clock();
+        for (int i = 1; i <= N; i++) {
             arrayStack.array_create_and_push(1, 1, 1, false);
         }
-        clock_t end = clock();
-        std::cout<<"Pushing "<< N <<" elements = "<<(end - start)<<" ms\n";
-        f<<"Pushing "<< N <<" elements = "<<(end - start)<<" ms\n";
+        end = clock();
+        f << (end - start) << "\t\t";
 
-        clock_t start_1 = clock();
-        for(int i = 1; i <= N; i++){
-            arrayStack.array_pop(false);
+        start = clock();
+        for (int i = 1; i <= N; i++) {
+            vectorStack.vector_create_and_push(1, 1, 1, false);
         }
-        clock_t end_1 = clock();
-        std::cout<<"Popping "<<N <<" elements = "<<(end_1 - start_1)<<" ms\n";
-        f<<"Popping "<<N <<" elements = "<<(end_1 - start_1)<<" ms\n\n";
-    }
+        end = clock();
+        f << (end - start) << "\t\t";
 
-    f.close();
+        start = clock();
+        for (int i = 1; i <= N; i++) {
 
-}
-
-void Functions::list_stack_benchmark(List_stack listStack) {
-
-    std::ofstream f ("../Files/List benchmark data.txt");
-    std::cout<<"\nThis is data for List_stack:\n";
-    f<<"This is data for List_stack:\n\n";
-
-    for(int N = 1; N <= 10000000; N*= 10){
-
-        clock_t start = clock();
-        for(int i = 1; i <= N; i++){
             listStack.list_create_and_push(1, 1, 1, false);
         }
-        clock_t end = clock();
-        std::cout<<"Pushing "<< N <<" elements = "<<(end - start)<<" ms\n";
-        f<<"Pushing "<< N <<" elements = "<<(end - start)<<" ms\n";
+        end = clock();
+        f << (end - start) << "\t\t";
 
-        clock_t start_1 = clock();
-        for(int i = 1; i <= N; i++){
+        start = clock();
+        for (int i = 1; i <= N; i++) {
+            test_stack.push(Point(1, 1, 1));
+        }
+        end = clock();
+        f << (end - start) << "\n";
+
+        size_a = arrayStack.size_of_container();
+        size_v = vectorStack.size_of_container();
+        size_l = listStack.size_of_container();
+
+        f << "Popping(ms):\t";
+
+        start_1 = clock();
+        for (int i = 1; i <= N; i++) {
+            arrayStack.array_pop(false);
+        }
+        end_1 = clock();
+        f << (end_1 - start_1) << "\t\t";
+
+        start_1 = clock();
+        for (int i = 1; i <= N; i++) {
+            vectorStack.vector_pop(false);
+        }
+        end_1 = clock();
+        f << (end_1 - start_1) << "\t\t";
+
+        start_1 = clock();
+        for (int i = 1; i <= N; i++) {
             listStack.list_pop(false);
         }
-        clock_t end_1 = clock();
-        std::cout<<"Popping "<<N <<" elements = "<<(end_1 - start_1)<<" ms\n";
-        f<<"Popping "<<N <<" elements = "<<(end_1 - start_1)<<" ms\n\n";
+        end_1 = clock();
+        f << (end_1 - start_1) << "\t\t";
+
+        start_1 = clock();
+        for (int i = 1; i <= N; i++) {
+            test_stack.pop();
+        }
+        end_1 = clock();
+        f << (end_1 - start_1) << "\n";
+
+        f<<"Size(bytes):\t"<<size_a<<"\t\t"<<size_v<<"\t\t"<<size_l<<"\n";
 
     }
 
+    std::cout<<"Results of benchmark are accessible in file: ../Files/Comparison benchmark.txt"<<std::endl;
     f.close();
 
 }
+
+

@@ -22,7 +22,7 @@ void Mode::interactive() {
             function.vector_stack_interactive(function.create_new_vector_stack());
         }
         if (key == 2) {
-            function.array_stack_interactive(function.create_new_array_stack());
+            function.array_stack_interactive(function.create_new_array_stack(false));
         }
         if (key == 3) {
             function.list_stack_interactive(function.create_new_list_stack());
@@ -58,7 +58,7 @@ void Mode::demo() {
             function.vector_stack_demo(function.create_new_vector_stack(), x_cor_1, y_cor_1, z_cor_1, x_cor_2, y_cor_2,
                                        z_cor_2);
         if (key == 2)
-            function.array_stack_demo(function.create_new_array_stack(), x_cor_1, y_cor_1, z_cor_1, x_cor_2, y_cor_2,
+            function.array_stack_demo(function.create_new_array_stack(false), x_cor_1, y_cor_1, z_cor_1, x_cor_2, y_cor_2,
                                       z_cor_2);
         if (key == 3)
             function.list_stack_demo(function.create_new_list_stack(), x_cor_1, y_cor_1, z_cor_1, x_cor_2, y_cor_2,
@@ -74,11 +74,7 @@ void Mode::demo() {
 void Mode::benchmark() {
 
     Functions function;
-//    std::ofstream f ("../Files/Benchmark data.txt", std::ios::trunc);
-//    f.close();
-    function.vector_stack_benchmark(function.create_new_vector_stack());
-    std::cout<<"\n\n\n";
-    function.array_stack_benchmark(function.create_new_array_stack());
-    std::cout<<"\n\n\n";
-    function.list_stack_benchmark(function.create_new_list_stack());
+    function.comparison_benchmark(function.create_new_vector_stack(),
+            function.create_new_array_stack(true),
+            function.create_new_list_stack());
 }
