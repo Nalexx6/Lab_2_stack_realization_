@@ -92,19 +92,7 @@
 		<Unit filename="D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Mode.h">
 			<Option target="Lab_2_stack_realization_"/>
 		</Unit>
-		<Unit filename="D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Array_stack.cpp">
-			<Option target="Lab_2_stack_realization_"/>
-		</Unit>
 		<Unit filename="D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Array_stack.h">
-			<Option target="Lab_2_stack_realization_"/>
-		</Unit>
-		<Unit filename="D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/ListNode.cpp">
-			<Option target="Lab_2_stack_realization_"/>
-		</Unit>
-		<Unit filename="D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/ListNode.h">
-			<Option target="Lab_2_stack_realization_"/>
-		</Unit>
-		<Unit filename="D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/List_stack.cpp">
 			<Option target="Lab_2_stack_realization_"/>
 		</Unit>
 		<Unit filename="D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/List_stack.h">
@@ -114,9 +102,6 @@
 			<Option target="Lab_2_stack_realization_"/>
 		</Unit>
 		<Unit filename="D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Point.h">
-			<Option target="Lab_2_stack_realization_"/>
-		</Unit>
-		<Unit filename="D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Vector_stack.cpp">
 			<Option target="Lab_2_stack_realization_"/>
 		</Unit>
 		<Unit filename="D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Vector_stack.h">

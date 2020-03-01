@@ -32,13 +32,9 @@ D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Array_s
 Point.h
 D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Point.h
 
-D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/ListNode.h
+D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/List_stack.h
 Point.h
 D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Point.h
-
-D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/List_stack.h
-ListNode.h
-D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/ListNode.h
 
 D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Point.h
 iostream
@@ -51,8 +47,16 @@ fstream
 -
 ctime
 -
+stack
+-
+chrono
+-
 
 D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Vector_stack.h
 Point.h
 D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Stack structures/Point.h
+
+D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/main.cpp
+Mode.h
+D:/C++/1/1 course 2 term(2020)/Lab_2(stack realization)/Mode.h
 

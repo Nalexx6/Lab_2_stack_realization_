@@ -82,35 +82,9 @@ CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Point.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Point.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\Point.cpp" -o CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\Point.cpp.s
 
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.obj: CMakeFiles/Lab_2_stack_realization_.dir/flags.make
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.obj: ../Stack\ structures/List_stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\List_stack.cpp.obj -c "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\List_stack.cpp"
-
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\List_stack.cpp" > CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\List_stack.cpp.i
-
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\List_stack.cpp" -o CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\List_stack.cpp.s
-
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.obj: CMakeFiles/Lab_2_stack_realization_.dir/flags.make
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.obj: ../Stack\ structures/ListNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\ListNode.cpp.obj -c "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\ListNode.cpp"
-
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\ListNode.cpp" > CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\ListNode.cpp.i
-
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\ListNode.cpp" -o CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\ListNode.cpp.s
-
 CMakeFiles/Lab_2_stack_realization_.dir/Functions.cpp.obj: CMakeFiles/Lab_2_stack_realization_.dir/flags.make
 CMakeFiles/Lab_2_stack_realization_.dir/Functions.cpp.obj: ../Functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab_2_stack_realization_.dir/Functions.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab_2_stack_realization_.dir/Functions.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_2_stack_realization_.dir\Functions.cpp.obj -c "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Functions.cpp"
 
 CMakeFiles/Lab_2_stack_realization_.dir/Functions.cpp.i: cmake_force
@@ -121,35 +95,9 @@ CMakeFiles/Lab_2_stack_realization_.dir/Functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_2_stack_realization_.dir/Functions.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Functions.cpp" -o CMakeFiles\Lab_2_stack_realization_.dir\Functions.cpp.s
 
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.obj: CMakeFiles/Lab_2_stack_realization_.dir/flags.make
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.obj: ../Stack\ structures/Vector_stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\Vector_stack.cpp.obj -c "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\Vector_stack.cpp"
-
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\Vector_stack.cpp" > CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\Vector_stack.cpp.i
-
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\Vector_stack.cpp" -o CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\Vector_stack.cpp.s
-
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.obj: CMakeFiles/Lab_2_stack_realization_.dir/flags.make
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.obj: ../Stack\ structures/Array_stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\Array_stack.cpp.obj -c "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\Array_stack.cpp"
-
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\Array_stack.cpp" > CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\Array_stack.cpp.i
-
-CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Stack structures\Array_stack.cpp" -o CMakeFiles\Lab_2_stack_realization_.dir\Stack_structures\Array_stack.cpp.s
-
 CMakeFiles/Lab_2_stack_realization_.dir/Mode.cpp.obj: CMakeFiles/Lab_2_stack_realization_.dir/flags.make
 CMakeFiles/Lab_2_stack_realization_.dir/Mode.cpp.obj: ../Mode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Lab_2_stack_realization_.dir/Mode.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab_2_stack_realization_.dir/Mode.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab_2_stack_realization_.dir\Mode.cpp.obj -c "D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\Mode.cpp"
 
 CMakeFiles/Lab_2_stack_realization_.dir/Mode.cpp.i: cmake_force
@@ -164,11 +112,7 @@ CMakeFiles/Lab_2_stack_realization_.dir/Mode.cpp.s: cmake_force
 Lab_2_stack_realization__OBJECTS = \
 "CMakeFiles/Lab_2_stack_realization_.dir/main.cpp.obj" \
 "CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Point.cpp.obj" \
-"CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.obj" \
-"CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.obj" \
 "CMakeFiles/Lab_2_stack_realization_.dir/Functions.cpp.obj" \
-"CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.obj" \
-"CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.obj" \
 "CMakeFiles/Lab_2_stack_realization_.dir/Mode.cpp.obj"
 
 # External object files for target Lab_2_stack_realization_
@@ -176,17 +120,13 @@ Lab_2_stack_realization__EXTERNAL_OBJECTS =
 
 Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/main.cpp.obj
 Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Point.cpp.obj
-Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.obj
-Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.obj
 Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/Functions.cpp.obj
-Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.obj
-Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.obj
 Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/Mode.cpp.obj
 Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/build.make
 Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/linklibs.rsp
 Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/objects1.rsp
 Lab_2_stack_realization_.exe: CMakeFiles/Lab_2_stack_realization_.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Lab_2_stack_realization_.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\C++\1\1 course 2 term(2020)\Lab_2(stack realization)\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Lab_2_stack_realization_.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Lab_2_stack_realization_.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

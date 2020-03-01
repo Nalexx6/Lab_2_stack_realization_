@@ -176,87 +176,6 @@ Mode.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Mode.cpp.s
 .PHONY : Mode.cpp.s
 
-Stack_structures/Array_stack.obj: Stack_structures/Array_stack.cpp.obj
-
-.PHONY : Stack_structures/Array_stack.obj
-
-# target to build an object file
-Stack_structures/Array_stack.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.obj
-.PHONY : Stack_structures/Array_stack.cpp.obj
-
-Stack_structures/Array_stack.i: Stack_structures/Array_stack.cpp.i
-
-.PHONY : Stack_structures/Array_stack.i
-
-# target to preprocess a source file
-Stack_structures/Array_stack.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.i
-.PHONY : Stack_structures/Array_stack.cpp.i
-
-Stack_structures/Array_stack.s: Stack_structures/Array_stack.cpp.s
-
-.PHONY : Stack_structures/Array_stack.s
-
-# target to generate assembly for a file
-Stack_structures/Array_stack.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Array_stack.cpp.s
-.PHONY : Stack_structures/Array_stack.cpp.s
-
-Stack_structures/ListNode.obj: Stack_structures/ListNode.cpp.obj
-
-.PHONY : Stack_structures/ListNode.obj
-
-# target to build an object file
-Stack_structures/ListNode.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.obj
-.PHONY : Stack_structures/ListNode.cpp.obj
-
-Stack_structures/ListNode.i: Stack_structures/ListNode.cpp.i
-
-.PHONY : Stack_structures/ListNode.i
-
-# target to preprocess a source file
-Stack_structures/ListNode.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.i
-.PHONY : Stack_structures/ListNode.cpp.i
-
-Stack_structures/ListNode.s: Stack_structures/ListNode.cpp.s
-
-.PHONY : Stack_structures/ListNode.s
-
-# target to generate assembly for a file
-Stack_structures/ListNode.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/ListNode.cpp.s
-.PHONY : Stack_structures/ListNode.cpp.s
-
-Stack_structures/List_stack.obj: Stack_structures/List_stack.cpp.obj
-
-.PHONY : Stack_structures/List_stack.obj
-
-# target to build an object file
-Stack_structures/List_stack.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.obj
-.PHONY : Stack_structures/List_stack.cpp.obj
-
-Stack_structures/List_stack.i: Stack_structures/List_stack.cpp.i
-
-.PHONY : Stack_structures/List_stack.i
-
-# target to preprocess a source file
-Stack_structures/List_stack.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.i
-.PHONY : Stack_structures/List_stack.cpp.i
-
-Stack_structures/List_stack.s: Stack_structures/List_stack.cpp.s
-
-.PHONY : Stack_structures/List_stack.s
-
-# target to generate assembly for a file
-Stack_structures/List_stack.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/List_stack.cpp.s
-.PHONY : Stack_structures/List_stack.cpp.s
-
 Stack_structures/Point.obj: Stack_structures/Point.cpp.obj
 
 .PHONY : Stack_structures/Point.obj
@@ -283,33 +202,6 @@ Stack_structures/Point.s: Stack_structures/Point.cpp.s
 Stack_structures/Point.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Point.cpp.s
 .PHONY : Stack_structures/Point.cpp.s
-
-Stack_structures/Vector_stack.obj: Stack_structures/Vector_stack.cpp.obj
-
-.PHONY : Stack_structures/Vector_stack.obj
-
-# target to build an object file
-Stack_structures/Vector_stack.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.obj
-.PHONY : Stack_structures/Vector_stack.cpp.obj
-
-Stack_structures/Vector_stack.i: Stack_structures/Vector_stack.cpp.i
-
-.PHONY : Stack_structures/Vector_stack.i
-
-# target to preprocess a source file
-Stack_structures/Vector_stack.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.i
-.PHONY : Stack_structures/Vector_stack.cpp.i
-
-Stack_structures/Vector_stack.s: Stack_structures/Vector_stack.cpp.s
-
-.PHONY : Stack_structures/Vector_stack.s
-
-# target to generate assembly for a file
-Stack_structures/Vector_stack.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab_2_stack_realization_.dir\build.make CMakeFiles/Lab_2_stack_realization_.dir/Stack_structures/Vector_stack.cpp.s
-.PHONY : Stack_structures/Vector_stack.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -353,21 +245,9 @@ help:
 	@echo ... Mode.obj
 	@echo ... Mode.i
 	@echo ... Mode.s
-	@echo ... Stack_structures/Array_stack.obj
-	@echo ... Stack_structures/Array_stack.i
-	@echo ... Stack_structures/Array_stack.s
-	@echo ... Stack_structures/ListNode.obj
-	@echo ... Stack_structures/ListNode.i
-	@echo ... Stack_structures/ListNode.s
-	@echo ... Stack_structures/List_stack.obj
-	@echo ... Stack_structures/List_stack.i
-	@echo ... Stack_structures/List_stack.s
 	@echo ... Stack_structures/Point.obj
 	@echo ... Stack_structures/Point.i
 	@echo ... Stack_structures/Point.s
-	@echo ... Stack_structures/Vector_stack.obj
-	@echo ... Stack_structures/Vector_stack.i
-	@echo ... Stack_structures/Vector_stack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
